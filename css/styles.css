@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #FAF6D5;
+}
+body {
+        justify-content: center;
+    }
+
+    #letras, #palabras, #todo {
+        text-align: center;
+        font-weight: bold;
+        font-size: 50px;
+        color: black;
+        transition: color 0.1s ease;
+    }
+
+    .letra {
+        transition: color 0.1s ease;
+        cursor: pointer;
+    }   
+    .palabra {
+        transition: color 0.1s ease; 
+        cursor: default;
+    }   
+    .lila {
+        color: #FA81F9;
+    }
+    #todo.lila {
+        color: #FA81F9;
+        cursor: pointer;
+    }
+
+.boton {
+  margin: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease; 
+}
+
+.boton:hover {
+  background-color: #ddd;    
+}
+
+
+.contenedor-botones{          
+    justify-content: center; 
+    align-items: center;
+ 
+}
+.contenedor-imagen {
+ 
+  margin: 20px;
+  transform: scale(0);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.contenedor-imagen.mostrar {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.contenedor-imagen img {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+#img1{
+    position: absolute;
+    z-index: auto;
+}
+#img2{
+    position: absolute;
+    z-index: auto;
+}     
+#img3{
+    position: absolute;
+    z-index: auto;
+}
+#img4{
+    position: absolute;
+    z-index: auto;
+}
