@@ -10,6 +10,7 @@
     <div id="letras"></div>
     <div id="palabras"></div>
     <div id="todo"></div>
+
     <div id="botones-imagenes" class="contenedor-botones" style="text-align: center; margin-top: 40px;">
         <button class="boton" data-img="img1">Toca para ver imagen 1</button>
         <button class="boton" data-img="img2">Toca para ver imagen 2</button>
@@ -28,6 +29,142 @@
         <div class="contenedor-imagen" id="img4">
             <img src="images/papa.png" alt="Imagen 4">
         </div>
+    </div>
+        <div class="alarma">
+        <h2>Generador de Alarmas Absurdas</h2>
+        <p id="mensajeAlarma">Presiona el botón para activar una alerta.</p>
+        <button id="activarAlarma">Activar Alarma</button>
+    </div>
+
+    <div class="realidad">
+        <h2>Controlador de Realidad</h2>
+        <p id="texto">Todo parece normal... por ahora.</p>
+        <button id="glitchear">Alterar la Realidad</button>
+    </div>
+
+    <div class="pirata">
+        <h2>Insulto Pirata Educado</h2>
+        <p id="insulto">Haz clic para recibir tu dosis de grosería marina.</p>
+        <button id="generar">¡Insúltame, capitán!</button>
+    </div>
+
+    <div class="oscuridad">
+        <h2>Detector de Oscuridad Interior</h2>
+        <label>¿Cómo estuvo tu día?
+        <select id="pregunta1">
+            <option value="bajo">Normal</option>
+            <option value="medio">Un poco raro</option>
+            <option value="alto">Quiero destruir todo</option>
+        </select>
+        </label>
+        <br>
+        <label>¿Qué música prefieres ahora?
+        <select id="pregunta2">
+            <option value="bajo">Pop</option>
+            <option value="medio">Rock</option>
+            <option value="alto">Metal oscuro</option>
+        </select>
+        </label>
+        <br>
+        <label>¿Te sientes emocionalmente...?
+        <select id="pregunta3">
+            <option value="bajo">Ligero</option>
+            <option value="medio">Confuso</option>
+            <option value="alto">Hueco</option>
+        </select>
+        </label>
+        <br><br>
+        <button id="calcularOscuridad">Calcular Oscuridad</button>
+        <p id="resultadoOscuridad"></p>
+    </div>
+
+    <div class="oraculo">
+        <h2>Oráculo de decisiones malísimas</h2>
+        <input type="text" id="preguntaOraculo" placeholder="Escribe tu pregunta aquí">
+        <button id="consultarOraculo">Consultar al Oráculo</button>
+        <p id="respuestaOraculo"></p>
+    </div>
+        <div class="clonador">
+        <h2>Clonador de Palabras Prohibidas</h2>
+        <input type="text" id="palabraProhibida" placeholder="Escribe una palabra prohibida">
+        <button id="activarClonador">Activar Clonador</button>
+        <div id="zonaCastigo"></div>
+    </div>
+
+    <div class="peinados">
+        <h2>Generador de Peinados según tu estado mental</h2>
+        <label>¿Cómo te sientes hoy?</label>
+        <select id="estadoMental">
+        <option value="">Selecciona una opción</option>
+        <option value="caos">Caótico</option>
+        <option value="zen">Tranquilo</option>
+        <option value="estres">Estresado</option>
+        <option value="genio">Inspirado</option>
+        <option value="raro">Extraño</option>
+        </select>
+        <button id="generarPeinado">Generar Peinado</button>
+        <p id="resultadoPeinado"></p>
+    </div>
+
+    <div class="binario-sentimental">
+        <h2>Traductor de emociones a código Binario</h2>
+        <input type="text" id="emociónBinaria" placeholder="Escribe una emoción">
+        <button id="traducirBinario">Traducir</button>
+        <p id="resultadoBinario"></p>
+    </div>
+
+    <div class="pared">
+        <h2>Simulador de Conversación con una Pared</h2>
+        <input type="text" id="mensajeUsuario" placeholder="Exprésate... aunque no te escuchen">
+        <button id="hablarPared">Hablar</button>
+        <p id="respuestaPared"></p>
+    </div>
+
+    <div class="calculadora-existencial">
+        <h2>Calculadora que Juzga</h2>
+        <input type="text" id="expresionMatematica" placeholder="Escribe una operación (ej: 4 * 5)">
+        <button id="calcularExistencial">Calcular</button>
+        <p id="resultadoExistencial"></p>
+    </div>
+    <div class="autodestruccion">
+        <h2>Temporizador de Autodestrucción</h2>
+        <button id="iniciarDestruccion">Iniciar cuenta regresiva</button>
+        <p id="cuentaRegresiva">Presiona el botón... si te atreves.</p>
+    </div>
+
+    <div class="opiniones-no-solicitadas">
+        <h2>Reproductor de Opiniones No Solicitadas</h2>
+        <button id="botonOpinion">Dame un consejo</button>
+        <p id="consejo"></p>
+    </div>
+
+    <div class="historia-alternativa">
+        <h2>hisoria totalmente contraria y absurda</h2>
+        <input type="text" id="eventoHistorico" placeholder="Escribe un evento histórico">
+        <button id="reescribirHistoria">Generar versión absurda</button>
+        <p id="resultadoHistoria"></p>
+    </div>
+
+    <div class="memoria-insultos">
+        <h2>Desahogate</h2>
+        <input type="text" id="insultoUsuario" placeholder="Desahogate con todo lo que tengas...">
+        <button id="guardarInsulto">Enviar Insulto</button>
+        <button id="mostrarInsultos">Mostrar insultos guardados</button>
+        <p id="listaInsultos"></p>
+    </div>
+
+    <div class="nivel-locura">
+        <h2>Contador de Niveles de Locura</h2>
+        <p id="mensajeLocura">Todo parece normal... por ahora.</p>
+        <div id="elementoLoco" class="oculto">¡¿QUÉ ESTÁ PASANDO AQUÍ?!</div>
+    </div>
+
+    <div class="boton-escapista">
+        <h2>Botón que se Escapa</h2>
+        <div id="zonaBoton" style="position: relative; height: 150px;">
+        <button id="botonEscapista">Hazme clic si puedes</button>
+        </div>
+        <p id="mensajeEscape"></p>
     </div>
     <script src="js/script.js"></script>
 </body>

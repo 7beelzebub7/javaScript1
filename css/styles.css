@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #FAF6D5;
 }
 body {
         justify-content: center;
@@ -86,4 +85,401 @@ body {
 #img4{
     position: absolute;
     z-index: auto;
+}
+
+body {
+  font-family: sans-serif;
+  color: #222;
+  padding: 20px;
+}
+
+div {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  background: white;
+}
+
+
+.alarma, .realidad, .pirata, .oscuridad, .oraculo, .clonador, .peinados, .binario-sentimental, .pared, .calculadora-existencial, .autodestruccion, .historia-alternativa, .memoria-insultos, .nivel-locura{
+    text-align: center;
+}
+.alarma button {
+  padding: 10px 20px;
+  color: red;
+  font-style: bold;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+.realidad{
+  background: black;
+  color: rgb(255, 255, 255);
+  font-family: monospace;
+}
+.realidad button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.glitch {
+  animation: glitchText 0.3s infinite;
+}
+@keyframes glitchText {
+  0% { transform: translate(1px, -1px) rotate(0.5deg); }
+  20% { transform: translate(-1px, 2px) rotate(-0.5deg); }
+  40% { transform: translate(2px, 1px) rotate(1deg); }
+  60% { transform: translate(-2px, -2px) rotate(-1deg); }
+  80% { transform: translate(1px, 1px) rotate(0.5deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+
+.pirata {
+  background: #001f3f;
+  color: #FA81F9;
+  font-family: "Georgia", serif;
+}
+.pirata button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #FA81F9;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.pirata button:hover {
+  background-color: #FA81F9;
+}
+
+
+.oscuridad {
+  background: #111;
+  color: #eee;
+}
+.oscuridad select, .oscuridad button {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+.oscuridad button {
+  background-color: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.oscuridad button:hover {
+  background-color: #666;
+}
+
+.oraculo {
+  background: #222;
+  color: #f5f5f5;
+  padding: 20px;
+  border: 2px dashed crimson;
+}
+.oraculo input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.oraculo button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.oraculo button:hover {
+  background-color: darkred;
+}
+
+.clonador {
+  background: #111;
+  color: #fff;
+  padding: 20px;
+  border: 2px solid orange;
+  margin-top: 20px;
+}
+.clonador input {
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+.clonador button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: orange;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+#zonaCastigo {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+}
+
+.peinados {
+  background: #202020;
+  color: #fff;
+  padding: 20px;
+  border: 2px dotted violet;
+  margin-top: 20px;
+}
+.peinados select, .peinados button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+.peinados button {
+  background-color: violet;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+#resultadoPeinado {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffccff;
+}
+
+.binario-sentimental {
+  background: #001f3f;
+  color: #7FDBFF;
+  padding: 20px;
+  border: 2px solid #7FDBFF;
+  margin-top: 20px;
+}
+.binario-sentimental input {
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+.binario-sentimental button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #7FDBFF;
+  color: #001f3f;
+  border: none;
+  cursor: pointer;
+}
+#resultadoBinario {
+  margin-top: 10px;
+  font-family: monospace;
+  font-size: 18px;
+  color: #39CCCC;
+}
+
+.pared {
+  background: #333;
+  color: #ccc;
+  padding: 20px;
+  border: 2px dashed #888;
+  margin-top: 20px;
+}
+.pared input {
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+.pared button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #888;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+#respuestaPared {
+  margin-top: 10px;
+  font-style: italic;
+  color: #aaa;
+}
+
+.calculadora-existencial {
+  background: #1a1a1a;
+  color: #e0e0e0;
+  padding: 20px;
+  border: 2px groove #999;
+  margin-top: 20px;
+}
+.calculadora-existencial input {
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+.calculadora-existencial button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #999;
+  color: #1a1a1a;
+  border: none;
+  cursor: pointer;
+}
+#resultadoExistencial {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #ff9999;
+}
+
+.autodestruccion {
+  background: #400000;
+  color: #ffdddd;
+  padding: 20px;
+  border: 2px solid red;
+  margin-top: 20px;
+}
+.autodestruccion button {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+#cuentaRegresiva {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.opiniones-no-solicitadas {
+  background: #2c2c2c;
+  color: #f0e68c;
+  padding: 20px;
+  border: 2px dashed #f0e68c;
+  margin-top: 20px;
+  text-align: center;
+}
+.opiniones-no-solicitadas button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f0e68c;
+  color: #2c2c2c;
+  border: none;
+  cursor: pointer;
+}
+#consejo {
+  margin-top: 15px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.historia-alternativa {
+  background: #3e2723;
+  color: #ffccbc;
+  padding: 20px;
+  border: 2px solid #ffab91;
+  margin-top: 20px;
+}
+.historia-alternativa input {
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+.historia-alternativa button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ffab91;
+  color: #3e2723;
+  border: none;
+  cursor: pointer;
+}
+#resultadoHistoria {
+  margin-top: 15px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.memoria-insultos {
+  background: #4a148c;
+  color: #e1bee7;
+  padding: 20px;
+  border: 2px solid #ba68c8;
+  margin-top: 20px;
+}
+.memoria-insultos input {
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+.memoria-insultos button {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #ba68c8;
+  color: #4a148c;
+  border: none;
+  cursor: pointer;
+}
+#listaInsultos {
+  margin-top: 15px;
+  font-style: italic;
+  max-height: 120px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
+
+.nivel-locura {
+  background: #1a1a1a;
+  color: #ff4081;
+  padding: 20px;
+  border: 2px dotted #ff4081;
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+}
+#elementoLoco {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 15px;
+  transition: transform 0.1s ease, color 0.1s;
+}
+.oculto {
+  display: none;
+}
+.locura-1 {
+  transform: rotate(5deg);
+}
+.locura-2 {
+  transform: scale(1.2);
+  color: #ffeb3b;
+}
+.locura-3 {
+  transform: translateX(20px) rotate(-10deg);
+  color: #69f0ae;
+}
+.locura-4 {
+  transform: scale(1.5) rotate(20deg);
+  color: #f44336;
+}
+
+.boton-escapista {
+  background: #263238;
+  color: #b2ebf2;
+  padding: 20px;
+  border: 2px dashed #4dd0e1;
+  margin-top: 20px;
+}
+#botonEscapista {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  padding: 10px 20px;
+  background-color: #4dd0e1;
+  color: #263238;
+  border: none;
+  cursor: pointer;
 }
